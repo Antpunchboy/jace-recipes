@@ -1,0 +1,27 @@
+.recipe, .home {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.home {
+    background-color: rgb(235, 192, 113);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.link {
+    font-size: 30px;
+    text-align: left;
+}
+.title {
+    font-size: 46px;
+    color: rgb(37, 31, 70)
+}
+.recipe {
+    background-color: rgb(37, 31, 70);
+    color: white
+}
+.lasagna, .banana_pudding, .fries {
+    height: auto;
+    width: 350px
+}
+.recipe_list li {
+    text-align: left;
+}

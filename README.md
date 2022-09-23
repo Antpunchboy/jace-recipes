@@ -1,1 +1,1 @@
-# odin-recipes2
+Final repository for "Odin Recipes" website
