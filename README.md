@@ -1,3 +1,3 @@
-<h1>odin-recipes2</h1>
+<h1>jace-recipes</h1>
 
-Final repository for "Odin-Recipes" website
+transferred from landing_page and odin-recipes repositories
