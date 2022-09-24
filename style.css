@@ -206,7 +206,7 @@ html {
     padding-bottom: 46px;
 }
 
-.fourth_row-box img {
+.imgtext img {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -243,7 +243,6 @@ html {
 }
 
 .imgtext a {
-    /*text-decoration: none;*/
     margin: 10px;
     margin-top: 20px;
     font-size: 22px;
