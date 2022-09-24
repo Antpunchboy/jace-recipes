@@ -83,7 +83,7 @@ html {
     white-space: nowrap;
 }
 
-.first_row-box a {
+.first_row-box a, .right_8_inner-box a {
     text-decoration: none;
     margin: 10px;
     margin-top: 20px;
