@@ -21,13 +21,6 @@ dimensions mode in devtool
     * {
         zoom: 100%;
     }
-    .second_row_left_column button {
-        transition: all 0.5s;
-    }
-    .second_row_left_column button:hover, .right_8_inner-box button:hover {
-        font-size: 23px;
-        cursor: pointer;
-    }
 }
 
 @media (max-width: 768px) {
@@ -45,6 +38,16 @@ dimensions mode in devtool
 @media (max-width: 375px) {
     * {
         zoom: 85%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .second_row_left_column button {
+        transition: all 0.5s;
+    }
+    .second_row_left_column button:hover, .right_8_inner-box button:hover {
+        font-size: 23px;
+        cursor: pointer;
     }
 }
 
