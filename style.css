@@ -164,6 +164,12 @@ html {
     margin: 10px;
     margin-top: 5px;
     margin-bottom: 105px;
+    transition: all 0.5s;
+}
+
+.second_row_left_column button:hover, .right_8_inner-box button:hover {
+    font-size: 23px;
+    cursor: pointer;
 }
 
 .second_row_right_column {
@@ -356,11 +362,14 @@ html {
     border-radius: 7px;
     margin-top: auto;
     margin-bottom: auto;
-    min-width: 96px;
+    /*min-width: 96px;*/
+    width: 120px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+    transition: all 0.5s;
 }
 
 .ninth_row-box {
