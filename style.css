@@ -68,7 +68,6 @@ html {
     justify-content: center;
     align-items: center;
     column-gap: 450px;
-    /*background-color: #1F2937;*/
     background-color: rgb(216, 157, 90);
     padding: 0px;
     padding-left: 100px;
@@ -114,7 +113,6 @@ html {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /*background-color: #1F2937;*/
     background-color: rgb(216, 157, 90);
     margin-left: -10px;
     margin-right: -10px;
@@ -232,16 +230,26 @@ html {
     font-size: 20px;
 }
 
+.imgtext.itone img{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9352751.jpg&w=629&h=629&c=sc&poi=face&q=60);
+}
+
+.imgtext.ittwo img {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9417387.jpg&w=630&h=630&c=sc&poi=face&q=60);
+}
+
+.imgtext.itthree img {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F607dd1b808c985db6cd65c30f560f5c4%2F16569510047278497D-13D8-44D7-910A-49997698EB40.jpeg&w=300&h=201&c=sc&poi=face&q=60);
+}
+
 .sixth_row-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: #E5E7EB;*/
     background-color: rgb(216, 157, 90);
     font-size: 36px;
     font-weight: 100;
     font-style: light italic;
-    /*color: #1F2937;*/
     color: white;
     margin-top: 45px;
     margin-bottom: -1px;
@@ -351,7 +359,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: #1F2937;*/
     background-color: rgb(216, 157, 90);
     color: white;
     padding-top: 40px;
