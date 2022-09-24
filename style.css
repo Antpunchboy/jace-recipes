@@ -51,6 +51,16 @@ dimensions mode in devtool
     }
 }
 
+@media (min-width: 1455px) {
+    .second_row_left_column button {
+        transition: none;
+    }
+    .second_row_left_column button:hover, .right_8_inner-box button:hover {
+        font-size: 17px;
+        cursor: auto;
+    }
+}
+
 img {
     width: 180px;
     height: auto;
