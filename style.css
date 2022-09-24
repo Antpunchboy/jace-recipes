@@ -242,6 +242,15 @@ html {
     background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F607dd1b808c985db6cd65c30f560f5c4%2F16569510047278497D-13D8-44D7-910A-49997698EB40.jpeg&w=300&h=201&c=sc&poi=face&q=60);
 }
 
+.imgtext a {
+    /*text-decoration: none;*/
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(75, 75, 75);
+    font-weight: 100;
+}
+
 .sixth_row-box {
     display: flex;
     justify-content: center;
