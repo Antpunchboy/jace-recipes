@@ -3,6 +3,9 @@
         font-size: 50px;
         padding-left: 50px;
     }
+    .lasagna, .banana_pudding, .fries {
+        width: 60%;
+    }
 }
 
 .recipe, .home {
@@ -29,7 +32,7 @@
     height: auto;
     /*width: 350px;*/
     /*width: 60%;*/
-    max-width: 40%;
+    width: 40%;
 }
 .recipe_list li {
     text-align: left;
