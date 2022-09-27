@@ -42,7 +42,7 @@ dimensions mode in devtool
 }
 
 @media (min-width: 1020px) {
-    .second_row_left_column button {
+    .second_row_left_column button, .right_8_inner-box button {
         transition: all 0.5s;
     }
     .second_row_left_column button:hover, .right_8_inner-box button:hover {
@@ -52,7 +52,7 @@ dimensions mode in devtool
 }
 
 @media (min-width: 1455px) {
-    .second_row_left_column button {
+    .second_row_left_column button, .right_8_inner-box button {
         transition: none;
     }
     .second_row_left_column button:hover, .right_8_inner-box button:hover {
@@ -308,7 +308,7 @@ html {
     align-items: center;
     font-weight: 800;
     font-size: 23px;
-    margin-top: -220px;
+    margin-top: -170px;
     margin-left: 56.5%;
     margin-right: auto;
     padding-left: 10px;
@@ -383,8 +383,6 @@ html {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    transition: all 0.5s;
-    font-size: 17px;
 }
 
 .ninth_row-box {
