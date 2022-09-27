@@ -367,7 +367,7 @@ html {
     background-color: #3882f6;
     border-style: none;
     border: 2px solid white;
-    padding: 7px;
+    /*padding: 7px;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -376,13 +376,19 @@ html {
     border-radius: 7px;
     margin-top: auto;
     margin-bottom: auto;
-    /*min-width: 96px;*/
+    /min-width: 96px;/
     width: 120px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    white-space: nowrap;
+    white-space: nowrap;*/
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: 125px;
+    height: 38px;
+    border-radius: 8px;
 }
 
 .ninth_row-box {
