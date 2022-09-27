@@ -31,9 +31,7 @@
 }
 .lasagna, .banana_pudding, .fries {
     height: auto;
-    /*width: 350px;*/
-    /*width: 60%;*/
-    width: 60%;
+    max-width: 60%;
 }
 .recipe_list li {
     text-align: left;
