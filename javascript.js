@@ -7,5 +7,5 @@ function sign_up() {
     else if (email.trim() === "") {
         alert("No email entered");
     };
-    location.reload();
+    //location.reload();
 };
