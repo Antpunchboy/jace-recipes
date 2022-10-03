@@ -184,6 +184,7 @@ html {
     margin: 10px;
     margin-top: 5px;
     margin-bottom: 105px;
+    white-space: nowrap;
 }
 
 .second_row_right_column {
@@ -367,18 +368,17 @@ html {
     background-color: #3882f6;
     border-style: none;
     border: 2px solid white;
-    padding: 7px;
+    /*padding: 7px;
     padding-left: 30px;
-    padding-right: 30px;
-    width: 125px;
-    height: 38px;
+    padding-right: 30px;*/
+    min-width: 125px;
+    min-height: 38px;
     color: white;
     font-size: 18px;
     font-weight: 600;
     border-radius: 7px;
     margin-top: auto;
     margin-bottom: auto;
-    /*min-width: 96px;*/
     display: flex;
     justify-content: center;
     align-items: center;
