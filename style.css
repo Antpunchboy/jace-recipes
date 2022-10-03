@@ -16,7 +16,10 @@ making the page responsive to all screen sizes
 [the proper way is to use min/max-height,
 min/max-width, flexbox, and just limit media queries
 to changing layout instead of messing with zoom
-setting]*** */
+setting] -> all in all just be creative and use what
+you know to fullest, soon this will all be second-
+nature
+*/
 
 @media (max-width: 2560px) {
     * {
