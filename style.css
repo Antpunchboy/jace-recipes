@@ -8,8 +8,15 @@ steps for responsiveness:
 2)add media queries for different device dimensions
 if needed
 3)do one final shrink test once complete, using 
-dimensions mode in devtool
-*/
+dimensions mode in devtool -> this is not the proper
+way as page zoom loses it's purpose for users with
+poorer eye-sight, but it does serve it's purpose in 
+making the page responsive to all screen sizes
+
+[the proper way is to use min/max-height,
+min/max-width, flexbox, and just limit media queries
+to changing layout instead of messing with zoom
+setting]*** */
 
 @media (max-width: 2560px) {
     * {
@@ -373,6 +380,11 @@ html {
     padding-right: 30px;*/
     min-width: 125px;
     min-height: 38px;
+
+    /* min-h, min-w values are only affected by
+    screen size (includes zoom), not animations 
+    like padding */
+
     color: white;
     font-size: 18px;
     font-weight: 600;
