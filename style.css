@@ -51,7 +51,7 @@ nature
     }
 }
 
-@media (min-width: 1020px) {
+/*@media (min-width: 1020px) {
     .second_row_left_column button, .right_8_inner-box button {
         transition: all 0.5s;
     }
@@ -62,6 +62,24 @@ nature
 }
 
 @media (min-width: 1455px) {
+    .second_row_left_column button, .right_8_inner-box button {
+        transition: none;
+    }
+    .second_row_left_column button:hover, .right_8_inner-box button:hover {
+        font-size: 17px;
+        cursor: auto;
+    }
+}*/
+
+.second_row_left_column button, .right_8_inner-box button {
+    transition: all 0.5s;
+}
+.second_row_left_column button:hover, .right_8_inner-box button:hover {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+@media (hover: none) {
     .second_row_left_column button, .right_8_inner-box button {
         transition: none;
     }
