@@ -23,7 +23,7 @@ nature
 
 @media (max-width: 2560px) {
     * {
-        zoom: 120%;
+        zoom: 110%;
     }
 }
 
@@ -195,8 +195,9 @@ html {
     margin: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 450px;
+    max-width: 450px;
     white-space: wrap;
+    /*overflow: wrap;*/
 }
 
 .second_row_left_column button {
